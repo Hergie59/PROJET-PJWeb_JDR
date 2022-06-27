@@ -24,7 +24,7 @@ body {
     text-align: center;
     }
 
-.lien1 {
+/* .lien1 {
     position: relative;
     display: block;
     overflow: hidden;
@@ -188,7 +188,7 @@ nav {
     grid-column-start: 1;
     grid-column-end: 1;
     width: 260px;
-    }
+    } */
 
  table {
      background-position: center;
