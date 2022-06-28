@@ -6,21 +6,18 @@
     <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-    <div class="grid">
-        <header>
-            <div class="box a">
-                <nav>
-                    <aside>
-                        <a class="lien4" href="index.html">Page d'accueil</a>
-                        <br>
-                        <a class="lien2" href="deroulement_partie.html">Comment se déroule une Partie</a>
-                        <br>
-                        <a class="lien3" href="fiche_perso_type.html">À quoi ressemble une Fiche Personnages</a>
-                        <br>
-                        <a class="lien7" href="demande_personnage.html">Demande de Personnage</a>
-                    </aside>
-                </nav>
-            </div>
+        <header class="navbar navbar-expand-md navbar-light justify-content-center px-3">
+            <button type="button" class="navbar-toggler border border-dark" data-bs-toggle="collapse" data-bs-target="navbar-content">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse" id="navbar-content">
+                <ul class="nav ms-auto d-flex justify-content-md-between">
+                        <li class="nav-item"><a class="nav-link btn btn-outline-dark" href="index.html">Page d'accueil</a></li>
+                        <li class="nav-item"><a class="nav-link btn btn-outline-dark" href="deroulement_partie.html">Comment se déroule une Partie</a></li>
+                        <li class="nav-item"><a class="nav-link btn btn-outline-dark" href="fiche_perso_type.html">À quoi ressemble une Fiche Personnages</a></li>
+                        <li class="nav-item"><a class="nav-link btn btn-outline-dark disabled" href="demande_personnage.html">Demande de Personnage</a></li>
+                </ul>
+            </nav>
         </header>
         <main>
         <div align="center">
@@ -97,6 +94,18 @@
             </figure>
         </div>
         </main>
-        </div>
+        <footer class="navbar navbar-expand-md navbar-light justify-content-center px-3">
+            <button type="button" class="navbar-toggler border border-dark" data-bs-toggle="collapse" data-bs-target="navbar-content2">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse" id="navbar-content2">
+                <ul class="nav ms-auto d-flex justify-content-md-between">
+                        <li class="nav-item"><a class="nav-link btn btn-outline-dark" href="index.html">Page d'accueil</a></li>
+                        <li class="nav-item"><a class="nav-link btn btn-outline-dark" href="deroulement_partie.html">Comment se déroule une Partie</a></li>
+                        <li class="nav-item"><a class="nav-link btn btn-outline-dark" href="fiche_perso_type.html">À quoi ressemble une Fiche Personnages</a></li>
+                        <li class="nav-item"><a class="nav-link btn btn-outline-dark disabled" href="demande_personnage.html">Demande de Personnage</a></li>
+                </ul>
+            </nav>
+        </footer>
     </body>
 </html>
